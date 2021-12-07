@@ -9,7 +9,9 @@ Bot for protect from spammers, writing as a channel in telegram chat
 
 3. Insert token in line 3! 
 
-Example: `const bot = new Telegraf("5014193694:AAF7woCxJCe9l7XY3XC-79JZXiccUtJkLJQ");`.
+Example: 
+
+`const bot = new Telegraf("5014193694:AAF7woCxJCe9l7XY3XC-79JZXiccUtJkLJQ");`.
 
 4. Install node.js and npm package manager if not installed!
 
