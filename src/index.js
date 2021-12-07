@@ -1,5 +1,5 @@
 const { Telegraf, Markup } = require("telegraf");
-const bot = new Telegraf("5014193694:AAF7woCxJCe9l7XY3XC-79JZXiccUtJkLJQ");
+const bot = new Telegraf("your bot token");
 const os = require("os");
 
 bot.on("message", (ctx) => {
