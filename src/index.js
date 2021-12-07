@@ -1,4 +1,4 @@
-const { Telegraf, Markup } = require("telegraf");
+const { Telegraf } = require("telegraf");
 const bot = new Telegraf("your bot token");
 const os = require("os");
 
