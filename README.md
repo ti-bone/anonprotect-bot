@@ -19,6 +19,6 @@ Example:
 
 # How to run bot
 
-1. `npm i`
+1. `npm i`(run one time)
 
 2. `node src/index.js`
