@@ -4,7 +4,7 @@ const os = require("os");
 
 bot.on("message", (ctx) => {
     if(ctx.chat.type == "group") return;
-    if(ctx.from.id == "777000") {
+    if(ctx.from.id == "136817688") {
         try{
             ctx.deleteMessage();
             return;
