@@ -5,8 +5,8 @@ const os = require("os");
 bot.on("message", async (ctx) => {
     if(ctx.chat.type == "group") return;
     if(ctx.from.id == "136817688") {
-        try{
-            await ctx.deleteMessage().catch((err) => {
+        try {
+            await ctx.deleteMessage().catch((err) => { 
                 console.error(err)
             });
 
@@ -14,8 +14,7 @@ bot.on("message", async (ctx) => {
                 console.error(err)
             });
             return;
-        }
-        catch(error){
+        } catch(error) {
             console.error(error);
         }
     }
